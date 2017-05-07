@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.jbatik.libs.jscience
+OpenIDE-Module-Localizing-Bundle: com/jbatik/libs/jscience/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

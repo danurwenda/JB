@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.apisupport.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/nb-module-project/3">
+            <code-name-base>ar.com.hjg.pngj</code-name-base>
+            <suite-component/>
+            <module-dependencies/>
+            <public-packages>
+                <package>ar.com.hjg.pngj</package>
+                <package>ar.com.hjg.pngj.chunks</package>
+                <package>ar.com.hjg.pngj.pixels</package>
+            </public-packages>
+            <class-path-extension>
+                <runtime-relative-path>ext/pngj-2.1.1.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/pngj-2.1.1.jar</binary-origin>
+            </class-path-extension>
+        </data>
+    </configuration>
+</project>

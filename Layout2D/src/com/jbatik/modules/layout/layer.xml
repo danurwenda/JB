@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-jbatik-modules-layout-component-SubLayoutExplorerTopComponent.instance_hidden"/>
+        </folder>
+    </folder>
+    <folder name="Templates">
+        <folder name="JBatik">
+            <!-- hide from template, see http://bits.netbeans.org/dev/javadoc/org-netbeans-modules-projectuiapi/org/netbeans/spi/project/ui/templates/support/package-summary.html -->
+            <attr boolvalue="false" name="simple"/>
+            <file name="LayTemplate.lay" url="nbresloc:/com/jbatik/modules/layout/newfile/LayTemplate.lay">
+                <!--com.jbatik.modules.layout.newfile.NewLayoutWizardIterator-->
+                <attr boolvalue="true" name="template"/>
+                <attr intvalue="1200" name="position"/>
+                <attr bundlevalue="com.jbatik.modules.layout.newfile.Bundle#NewLayoutWizardIterator_displayName" name="displayName"/>
+                <attr name="instantiatingWizardURL" urlvalue="nbresloc:/com/jbatik/modules/layout/newfile/newLayout.html"/>
+                <attr name="instantiatingIterator" newvalue="com.jbatik.modules.layout.newfile.NewLayoutWizardIterator"/>
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+                <attr boolvalue="true" name="requireProject"/>
+            </file>
+            <file name="libs.zip" url="nbres:/com/jbatik/modules/layout/defaults/libs.zip"></file>
+        </folder>
+    </folder>
+    <folder name="MyModule">
+        <folder name="Toolbars">
+            <folder name="MyToolbar">
+                <attr name="displayName" stringvalue="A Dummy Toolbar" />
+                <file name="com-jbatik-modules-layout-toolbar-DummyAction.shadow">
+                    <!--com.jbatik.modules.layout.toolbar.DummyAction-->
+                    <attr name="originalFile" stringvalue="Actions/Dummy/com-jbatik-modules-layout-toolbar-DummyAction.instance"/>
+                    <attr intvalue="300" name="position"/>
+                </file>
+            
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

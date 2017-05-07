@@ -1,0 +1,6 @@
+/build/
+/*/build/
+/nbproject/private/
+/*/nbproject/private/
+/*/test
+/*.pdf

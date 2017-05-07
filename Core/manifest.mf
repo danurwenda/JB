@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.jbatik.core
+OpenIDE-Module-Layer: com/jbatik/core/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/jbatik/core/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.3.3

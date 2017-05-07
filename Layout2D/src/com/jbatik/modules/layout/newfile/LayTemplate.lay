@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <paper>
+        <background a="255" b="0" g="255" r="0"/>
+        <paper-width>${width?c}</paper-width>
+        <paper-height>${height?c}</paper-height>
+        <dpi>${dpi}</dpi>
+        <unit>${unit}</unit>
+    </paper>
+    <layers>
+        <layer type="sublayout">
+            <name>layer 1</name>
+            <x>0</x>
+            <y>0</y>        
+            <iteration>1</iteration>
+            <angle>0</angle>
+            <width>100</width>
+            <length>100</length>
+            <axiom>A</axiom>
+            <rules>
+                <rule>
+                    <pred>A</pred>
+                    <succ>F;+"?A</succ>
+                </rule>
+            </rules>
+            <images/>
+        </layer>
+      
+    </layers>
+</layout>
