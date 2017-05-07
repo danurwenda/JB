@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Templates">
+        <folder name="JBatik">
+            <!-- hide from template, see http://bits.netbeans.org/dev/javadoc/org-netbeans-modules-projectuiapi/org/netbeans/spi/project/ui/templates/support/package-summary.html -->
+            <attr boolvalue="false" name="simple"/>
+            <file name="CorakTemplate.cor" url="nbresloc:/com/jbatik/modules/corak/newfile/CorakTemplate.cor">
+                <!--com.jbatik.modules.corak.newfile.NewCorakWizardIterator-->
+                <attr boolvalue="true" name="template"/>
+                <attr intvalue="1000" name="position"/>
+                <attr bundlevalue="com.jbatik.modules.corak.newfile.Bundle#CorakWizardIterator_dName" name="displayName"/>
+                <attr name="instantiatingWizardURL" urlvalue="nbresloc:/com/jbatik/modules/corak/newfile/corak.html"/>
+                <attr boolvalue="true" name="requireProject"/>              
+            </file>
+            <file name="cors.zip" url="nbres:/com/jbatik/modules/corak/defaults/cors.zip"></file>
+            <file name="textures.zip" url="nbres:/com/jbatik/modules/corak/defaults/textures.zip"></file>
+            <file name="blank.png" url="nbres:/com/jbatik/modules/corak/defaults/blank.png"></file>
+        </folder>
+    </folder>
+</filesystem>
