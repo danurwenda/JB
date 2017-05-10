@@ -87,7 +87,7 @@ public class ScrollAction extends WidgetAction.Adapter {
                     if (isAMDown) {
                         if (amount < 0 || sll.getAngleMultiplier() > 0.1) {
                             float c = sll.getAngleMultiplier() - amount * 0.01f;
-                            sll.setAngleMultiplier(c < 0.1 ? 0.1f : c > 6 ? 6 : c);
+                            sll.setAngleMultiplier(c < 0.01 ? 0.01f : c > 6 ? 6 : c);
                         }
                     }
                     if (isWDown) {
@@ -98,7 +98,7 @@ public class ScrollAction extends WidgetAction.Adapter {
                     if (isWMDown) {
                         if (amount < 0 || sll.getWidthMultiplier() > 0.1) {
                             float c = sll.getWidthMultiplier() - amount * 0.01f;
-                            sll.setWidthMultiplier(c < 0.1 ? 0.1f : c > 6 ? 6 : c);
+                            sll.setWidthMultiplier(c < 0.01 ? 0.01f : c > 6 ? 6 : c);
                         }
                     }
                     if (isEDown) {
@@ -109,7 +109,7 @@ public class ScrollAction extends WidgetAction.Adapter {
                     if (isLMDown) {
                         if (amount < 0 || sll.getLengthMultiplier() > 0.1) {
                             float c = sll.getLengthMultiplier() - amount * 0.01f;
-                            sll.setLengthMultiplier(c < 0.1 ? 0.1f : c > 6 ? 6 : c);
+                            sll.setLengthMultiplier(c < 0.01 ? 0.01f : c > 6 ? 6 : c);
                         }
                     }
                     //done changing structure
